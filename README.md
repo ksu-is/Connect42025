@@ -3,4 +3,3 @@
  
  # How to play
  Connect 4 is a two player game so be sure to have an opponent with you to play against. To play, each player must take turns dropping disks into the board. The first player to form a row of four horizontally, verticallyt, or diagonally is the winner.
- Connect 4 is a two player game so be sure to have an opponent with you to play against. To play, each player must take turns dropping disks into the board. The first player to form a row of four horizontally, vertically, or diagonally is the winner.

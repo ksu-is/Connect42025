@@ -6,9 +6,9 @@
 
 4.) Install Numpy
 
-5.) Begin coding connect 4
+5.) Sprint 1
 
-6.) Sprint 1
+6.) Begin coding the Connect 4
 
 7.) Sprint 2
 

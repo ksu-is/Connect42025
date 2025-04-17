@@ -13,4 +13,5 @@ def drop_piece(board, column, player):
       return True
   return False
 
-
+def check_win(board, player):
+  for row in range(5, -1, -1):

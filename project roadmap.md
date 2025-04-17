@@ -1,18 +1,17 @@
-1.) Create readme file
+-Create readme file
 
-2.) Create roadmap file
+-Create roadmap file
 
-3.) Create a python file
+-Create a python file
 
-4.) Install Numpy
+-Install Numpy
 
-5.) Sprint 1
+-Sprint 1
 
-6.) Begin coding the Connect 4
-  -4/17 imported numpy into the code
-  -4/17 began coding the move system as well as the board
-  -4/17 started on the code for python to check for a win (four in a row)
+-Begin coding the Connect 4
+-4/17 imported numpy into the code
+-4/17 began coding the move system as well as the board
+-4/17 started on the code for python to check for a win (four in a row)
+-4/17 complete and submit sprint 2
 
-7.) Sprint 2
-
-8.) Sprint 3
+-Sprint 3

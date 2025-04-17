@@ -9,4 +9,4 @@ def is_move_valid(board, column, player):
 def drop_piece(board, column, player):
   for row in range(5, -1, -1):
     if board[row][column] == 0:
-      board
+      board [row column] = player

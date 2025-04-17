@@ -20,4 +20,10 @@
 
 -Sprint 3
 
+FUTURE PLANS
+
+-Finish coding game for 2 players
+
+-After working, code in AI opponent to play against.
+
 

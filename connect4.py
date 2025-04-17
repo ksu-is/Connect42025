@@ -10,3 +10,7 @@ def drop_piece(board, column, player):
   for row in range(5, -1, -1):
     if board[row][column] == 0:
       board [row][column] = player
+      return True
+  return False
+
+

@@ -46,7 +46,7 @@ def start_game():
     player = 1
     while True:
         print_board(board)
-        coumn = int(input(f"Your turn Player {player}, choose between columns 1-7 to place your piece in: ")) - 1
+        column = int(input(f"Your turn Player {player}, choose between columns 1-7 to place your piece in: ")) - 1
         if is_move_valid(board, column):
             if drop_piece(board, column, player):
                 if check_win(board, player):

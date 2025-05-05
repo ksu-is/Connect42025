@@ -40,3 +40,21 @@ for row in range(3):
 def print_board(board):
     for row in board:
         print("|" + "|".join(map(str, row)) + "|")
+
+def start_game():
+    board = initialize_board()
+    player = 1
+    while True:
+        print_board(board)
+        coumn = int(input(f"Your turn Player {player}, choose between columns 1-7 to place your piece in: ")) - 1
+        if is_move_valid(board, column):
+            if drop_piece(board, column, player):
+                if check_win(board, player):
+                    print_board(board)
+                    print(f"Player {player} is the winner!")
+                    break
+                player = 2 if player == 1 else 1
+        else:
+            print("Invalid input, enter a number between 1 and 7.")
+
+start_game()

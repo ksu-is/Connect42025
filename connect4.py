@@ -16,3 +16,6 @@ def drop_piece(board, column, player):
 def check_win(board, player):
  
   for row in range(6):
+      for column in range(4):
+            if all(board[row][column:column+4] == player):
+                return True
